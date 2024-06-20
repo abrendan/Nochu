@@ -15,112 +15,112 @@
 
         private void InitializeComponent()
         {
-            this.txtAddressBar = new System.Windows.Forms.TextBox();
-            this.btnGo = new System.Windows.Forms.Button();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.btnForward = new System.Windows.Forms.Button();
-            this.btnHome = new System.Windows.Forms.Button();
-            this.btnReload = new System.Windows.Forms.Button();
-            this.btnNewTab = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            txtAddressBar = new TextBox();
+            btnGo = new Button();
+            btnBack = new Button();
+            btnForward = new Button();
+            btnHome = new Button();
+            btnReload = new Button();
+            btnNewTab = new Button();
+            tabControl1 = new TabControl();
+            SuspendLayout();
             // 
             // txtAddressBar
             // 
-            this.txtAddressBar.Location = new System.Drawing.Point(100, 10);
-            this.txtAddressBar.Name = "txtAddressBar";
-            this.txtAddressBar.Size = new System.Drawing.Size(600, 23);
-            this.txtAddressBar.TabIndex = 0;
+            txtAddressBar.Location = new Point(88, 9);
+            txtAddressBar.Name = "txtAddressBar";
+            txtAddressBar.Size = new Size(526, 23);
+            txtAddressBar.TabIndex = 0;
             // 
             // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(710, 10);
-            this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(50, 23);
-            this.btnGo.TabIndex = 1;
-            this.btnGo.Text = "Go";
-            this.btnGo.UseVisualStyleBackColor = true;
-            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
+            btnGo.Location = new Point(621, 9);
+            btnGo.Name = "btnGo";
+            btnGo.Size = new Size(44, 22);
+            btnGo.TabIndex = 1;
+            btnGo.Text = "Go";
+            btnGo.UseVisualStyleBackColor = true;
+            btnGo.Click += btnGo_Click;
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(10, 10);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(30, 23);
-            this.btnBack.TabIndex = 2;
-            this.btnBack.Text = "<";
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            btnBack.Location = new Point(9, 9);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(26, 22);
+            btnBack.TabIndex = 2;
+            btnBack.Text = "<";
+            btnBack.UseVisualStyleBackColor = true;
+            btnBack.Click += btnBack_Click;
             // 
             // btnForward
             // 
-            this.btnForward.Location = new System.Drawing.Point(50, 10);
-            this.btnForward.Name = "btnForward";
-            this.btnForward.Size = new System.Drawing.Size(30, 23);
-            this.btnForward.TabIndex = 3;
-            this.btnForward.Text = ">";
-            this.btnForward.UseVisualStyleBackColor = true;
-            this.btnForward.Click += new System.EventHandler(this.btnForward_Click);
+            btnForward.Location = new Point(44, 9);
+            btnForward.Name = "btnForward";
+            btnForward.Size = new Size(26, 22);
+            btnForward.TabIndex = 3;
+            btnForward.Text = ">";
+            btnForward.UseVisualStyleBackColor = true;
+            btnForward.Click += btnForward_Click;
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(770, 10);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(50, 23);
-            this.btnHome.TabIndex = 4;
-            this.btnHome.Text = "Home";
-            this.btnHome.UseVisualStyleBackColor = true;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            btnHome.Location = new Point(674, 9);
+            btnHome.Name = "btnHome";
+            btnHome.Size = new Size(44, 22);
+            btnHome.TabIndex = 4;
+            btnHome.Text = "Home";
+            btnHome.UseVisualStyleBackColor = true;
+            btnHome.Click += btnHome_Click;
             // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(830, 10);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(50, 23);
-            this.btnReload.TabIndex = 5;
-            this.btnReload.Text = "Reload";
-            this.btnReload.UseVisualStyleBackColor = true;
-            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            btnReload.Location = new Point(726, 9);
+            btnReload.Name = "btnReload";
+            btnReload.Size = new Size(44, 22);
+            btnReload.TabIndex = 5;
+            btnReload.Text = "Reload";
+            btnReload.UseVisualStyleBackColor = true;
+            btnReload.Click += btnReload_Click;
             // 
             // btnNewTab
             // 
-            this.btnNewTab.Location = new System.Drawing.Point(890, 10);
-            this.btnNewTab.Name = "btnNewTab";
-            this.btnNewTab.Size = new System.Drawing.Size(70, 23);
-            this.btnNewTab.TabIndex = 6;
-            this.btnNewTab.Text = "New Tab";
-            this.btnNewTab.UseVisualStyleBackColor = true;
-            this.btnNewTab.Click += new System.EventHandler(this.btnNewTab_Click);
+            btnNewTab.Location = new Point(779, 9);
+            btnNewTab.Name = "btnNewTab";
+            btnNewTab.Size = new Size(61, 22);
+            btnNewTab.TabIndex = 6;
+            btnNewTab.Text = "New Tab";
+            btnNewTab.UseVisualStyleBackColor = true;
+            btnNewTab.Click += btnNewTab_Click;
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Location = new System.Drawing.Point(10, 40);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(950, 500);
-            this.tabControl1.TabIndex = 7;
+            tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tabControl1.Location = new Point(-1, 38);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(1145, 637);
+            tabControl1.TabIndex = 7;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 550);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.btnNewTab);
-            this.Controls.Add(this.btnReload);
-            this.Controls.Add(this.btnHome);
-            this.Controls.Add(this.btnForward);
-            this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnGo);
-            this.Controls.Add(this.txtAddressBar);
-            this.Name = "Form1";
-            this.Text = "Nochu Web Browser";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
+            ClientSize = new Size(1144, 675);
+            Controls.Add(tabControl1);
+            Controls.Add(btnNewTab);
+            Controls.Add(btnReload);
+            Controls.Add(btnHome);
+            Controls.Add(btnForward);
+            Controls.Add(btnBack);
+            Controls.Add(btnGo);
+            Controls.Add(txtAddressBar);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "Form1";
+            Text = "Nochu Web Browser";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private System.Windows.Forms.TextBox txtAddressBar;
